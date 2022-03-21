@@ -72,7 +72,7 @@ public class WorkingDays {
     }
 
     public static void main(String[] args) {
-        Long secunde = 63158400L;
+        Long secunde = 1325462400L;
         Long  zile = zileCalculator(secunde); // calculez numarul de zile
         int[] ans = lunaCurenta(zile); // preiau datele prelucrate in functie de numarul de zile
         // numarLuni / zileRamase / anBisect
@@ -84,7 +84,7 @@ public class WorkingDays {
         Integer luniScurte[] = {1, 3, 5, 8, 10};
 
         Integer luniLungi[] = {0, 2, 4, 6, 7, 9, 11};
-        int zileLucratore = 0;
+        int zileLucratore = 1;
 
         if (anBisect == 1) { //verificam daca este an bisect
             if (Arrays.asList(luniScurte).contains(luna) && luna == 1) { //verificam daca este februarie(luna 1, indexare de la 0)
